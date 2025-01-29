@@ -5,13 +5,14 @@ int main() {
     cin>>a>>b>>c;
     int mid=b;
     if(b<a){
-        swap(a,b);//a<b
+        swap(a,b);//무조건 a<b
+        mid=b;
     }else if(c<b&&a<c){
-        swap(b,c);
+        mid=c;
     }else if(c<b&&c<a){
-        swap(a,b);
+        mid=a;
     }
-    cout<<b;
+    cout<<mid;
 
     return 0;
 }
