@@ -8,7 +8,7 @@ int main(){
     cin>>age>>ch;
     cin>>a>>c;
     
-    if(age>=19&&ch=='M'||a>=19&&ch=='M'){
+    if(age>=19&&ch=='M'||a>=19&&c=='M'){
         cout<<"1";
     }else{
         cout<<"0";
